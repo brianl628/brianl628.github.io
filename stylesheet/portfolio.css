@@ -101,7 +101,7 @@ img:hover {
 /*Styling for footer element */
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: lightgray;
+    background-color: white;
 }
 /***** End of General Styling *****/
 
@@ -113,8 +113,8 @@ footer {
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
     z-index: 1; /* This ensures other elements don't display over the navbar */
-    -webkit-animation: moveNav 3s; /* Safari 4.0 - 8.0 */
-    animation: moveNav 3s; /* This makes the moveNav animation last 5 seconds */
+    -webkit-animation: moveNav 5s; /* Safari 4.0 - 8.0 */
+    animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
 }
 
 /* The animation effect for moving the nav bar in from above the left of the screen on page load */
